@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    /* 2. Diseño del documento (El "cuadrado") */
+    background-color: beige;
+    border: solid 4px black;
+    border-radius: 10px;
+
+    /* 3. El ancho del documento NO DEBE SER 100% */
+    width: 800px; /* Ancho fijo para el documento */
+    /* 4. Centrado en la página */
+    margin: 50px auto; /* 50px arriba/abajo, 'auto' a los lados para centrar */
+    
+    /* 5. Relleno interno */
+    padding: 30px; 
+    
+    /* 6. Flexbox: Solo si necesitas apilar el header y main perfectamente */
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+main {
+    width: 100%;
+
+}
+
+header h1{
+    background-color: rgb(255, 145, 0);
+}
+
+header, h1 .contact-info {
+    text-align: center;
+}
+#perfil-laboral, h2, p {
+    text-align: center;
+}
+#perfil-laboral h2{
+    background-color: rgb(238, 214, 0);
+}
+#experiencia-laboral, h2, h3, p {
+    text-align: center;
+}
+#experiencia-laboral h2, h3 {
+    background-color: rgb(80, 182, 182);
+}
+#formacion, h2, p {
+    text-align: center;
+}
+#formacion h2 {
+    background-color: rgb(47, 180, 58);
+}
+#habilidades-cursos{
+    text-align: center;
+}
+#habilidades-cursos h2{
+    background-color: rgb(255, 42, 42);
+}
+#referencias{
+    text-align: center;
+}
+#referencias h2 {
+    background-color: rgb(128, 18, 192);
+}
