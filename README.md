@@ -1,6 +1,5 @@
 # Repositorio de Proyectos Frontend HTML y CSS Yilmer Hernandez Camargo
 
----
 
 ## Propósito del Repositorio
 
@@ -16,6 +15,8 @@ La arquitectura está diseñada para mantener los proyectos totalmente separados
 * **`README.md`**: El índice principal del repositorio.
 * **`CV/`**: Carpeta que contiene mi proyecto de Hoja de Vida profesional.
 * **`Transmilenio/`**: Carpeta que contiene la réplica de la interfaz de usuario de la página de Transmilenio.
+* **`/CirculoCromatico`**: Carpeta que contiene la imagen del circulo cromatico firmado en clase por el profe.
+* **`/PaginaDeLaCLase`**: Carpeta que contiene lo que intentamos hacer en clase con el profe, pero que a mi parecer no se hizo bien.
 
 ### Contenido Estándar de las Carpetas
 
@@ -24,9 +25,6 @@ Cada proyecto (`CV/` y `Transmilenio/`) tiene la siguiente estructura interna:
 * **`index.html`**: El archivo principal que define la estructura HTML.
 * **`styles/`**: Carpeta que contiene la hoja de estilos CSS principal (`style.css`).
 * **`img/`**: Carpeta para todos los activos visuales, iconos e imágenes del proyecto.
-
----
-
 
 ##  Contacto
 
