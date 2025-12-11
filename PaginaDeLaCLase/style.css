@@ -1,0 +1,132 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background: #000000e9;
+}   
+
+
+header {
+    background: #ffde23;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+header ul li {    
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    padding: 5px 10px;
+}
+header ul li a {
+    color: black;
+}
+
+header h1 {
+    background-color: #00067ad9;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+header a:hover{
+    background-color: #020675;
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+margin: 0 10px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.bloque {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    margin: 15px;
+    border: 1px solid #000000;
+}
+.bloque h2 {
+    background-color: #0059a7bf;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bloque img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.fila-reversa {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    margin: 15px;
+    border: 1px solid #000000;
+    flex-direction: row-reverse;
+}
+
+.fila-reversa img {
+    width: 300px;
+    border-radius: 10px;
+}
+.fila-reversa h2 {
+    background-color: #ffa600bf;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.temporada-tres {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    margin: 15px;
+    border: 1px solid #000000;
+    flex-direction: row-reverse;
+}
+.temporada-tres img {
+    width: 300px;
+    border-radius: 10px;
+}
+.temporada-tres h2 {
+    background-color: #dd0404f5;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login {
+    background: #ffffff;
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+
+.login input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background: #5acd5a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
